@@ -4,7 +4,7 @@ using TechTalk.SpecFlow;
 using TechTalk.SpecFlow.Assist;
 using NUnit.Framework;
 
-namespace KM01.Steps
+namespace KM01
 {
     [Binding]
     public sealed class PredictViralEscapeSteps

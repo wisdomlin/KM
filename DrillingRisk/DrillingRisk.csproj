@@ -6,7 +6,6 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
-    <PackageReference Include="NUnit" Version="3.13.2" />
     <PackageReference Include="SpecFlow.Plus.LivingDocPlugin" Version="3.8.35" />
 
     
@@ -27,10 +26,6 @@
   <ItemGroup>
     <Folder Include="Drivers\" />
     <Folder Include="Hooks\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\KM01\KM01.csproj" />
   </ItemGroup>
 
 </Project>

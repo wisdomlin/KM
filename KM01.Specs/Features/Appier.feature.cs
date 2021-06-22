@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace KM01.Specs.Features
+namespace ReusableEntities.specs.Features
 {
     using TechTalk.SpecFlow;
     using System;
@@ -20,7 +20,32 @@ namespace KM01.Specs.Features
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "3.8.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [TechTalk.SpecRun.FeatureAttribute("Appier", Description="\t來自加拿大的人工智慧平台「BlueDot」能掃描來自上百種管道的資料，並於2019年12月時偵測到中國的武漢市出現疑似肺炎的群聚感染。\r\n\t該平台也能讀取人們的" +
-        "[旅遊模式]和[移動軌跡]，讓初期的研究人員得以預測傳染病[可能散播的路徑與方式]。", SourceFile="Features\\Appier.feature", SourceLine=0)]
+        "[旅遊模式]和[移動軌跡]，讓初期的研究人員得以預測傳染病[可能散播的路徑與方式]。\r\n\r\n\t[Public corpora] help to remove t" +
+        "he burden of [corpus creation].\r\n\t[Shared community annotations] contribute to a" +
+        "ddressing the challenges of [data enrichment and annotation].\r\n\t[Shared Tasks] h" +
+        "elp to promote faster [evaluation process] and serve as [a source of annotated d" +
+        "ata].\r\n\r\n\tFour Components: \r\n\tText mining corpora, \r\n\tText mining modeling resou" +
+        "rces\r\n\tText mining systems\r\n\tShared tasks\r\n\t\r\n\tWe note standout systems that eit" +
+        "her \r\n\tprovide strong performance on fundamental tasks such as [search] or [ques" +
+        "tion answering (QA)] or \r\n\tprovide novel functionality such as [multi-document s" +
+        "ummarization] or [linking between articles and clinical trials]. \r\n\t\r\n\t1.[Embedd" +
+        "ings] are computed [vector representations of spans of text] \r\n\tthat capture [se" +
+        "mantic and syntactic similarities] between these texts.\r\n\t2.[Annotations] provid" +
+        "e information in addition to the metadata and text of the COVID-19 literature. \r" +
+        "\n\tOne may wish to [identify and annotate] mentions of biomedical or clinical [en" +
+        "tities], [relations], or [attributes] \r\n\tof interest in the paper text.\r\n\t3.[Kno" +
+        "wledge graphs] can also support [automated reasoning and inference] and \r\n\tthe p" +
+        "otential [discovery of novel relationships].\r\n\t4.[Contextual language models] ar" +
+        "e ubiquitous in modern text mining systems.\r\n\r\n\t1.[Exploration]: provide a prede" +
+        "fined set of [topics] or [keyphrases] with which to filter the documents. . \r\n\t[" +
+        "Topics] or [keyphrases] can be extracted from documents using [supervised] or [u" +
+        "nsupervised] biomedical entity extraction.\r\n\t2.[QA systems] accept queries in th" +
+        "e form of questions and provide extracted answer spans from documents, \r\n\twith t" +
+        "he ability to [generate summaries across answers], or [ask follow-up questions]." +
+        "\r\n\t3.[KB construction] describes systems that create KBs by extracting [entities" +
+        " and relations] from text. \r\n\tKB system links papers to their corresponding [cli" +
+        "nical trials and trial results].\r\n\t4.[Visualizations] are usually coupled with [" +
+        "extracted KBs] or [citation networks].", SourceFile="Features\\Appier.feature", SourceLine=0)]
     public partial class AppierFeature
     {
         
@@ -36,7 +61,32 @@ namespace KM01.Specs.Features
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
             TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "Appier", "\t來自加拿大的人工智慧平台「BlueDot」能掃描來自上百種管道的資料，並於2019年12月時偵測到中國的武漢市出現疑似肺炎的群聚感染。\r\n\t該平台也能讀取人們的" +
-                    "[旅遊模式]和[移動軌跡]，讓初期的研究人員得以預測傳染病[可能散播的路徑與方式]。", ProgrammingLanguage.CSharp, ((string[])(null)));
+                    "[旅遊模式]和[移動軌跡]，讓初期的研究人員得以預測傳染病[可能散播的路徑與方式]。\r\n\r\n\t[Public corpora] help to remove t" +
+                    "he burden of [corpus creation].\r\n\t[Shared community annotations] contribute to a" +
+                    "ddressing the challenges of [data enrichment and annotation].\r\n\t[Shared Tasks] h" +
+                    "elp to promote faster [evaluation process] and serve as [a source of annotated d" +
+                    "ata].\r\n\r\n\tFour Components: \r\n\tText mining corpora, \r\n\tText mining modeling resou" +
+                    "rces\r\n\tText mining systems\r\n\tShared tasks\r\n\t\r\n\tWe note standout systems that eit" +
+                    "her \r\n\tprovide strong performance on fundamental tasks such as [search] or [ques" +
+                    "tion answering (QA)] or \r\n\tprovide novel functionality such as [multi-document s" +
+                    "ummarization] or [linking between articles and clinical trials]. \r\n\t\r\n\t1.[Embedd" +
+                    "ings] are computed [vector representations of spans of text] \r\n\tthat capture [se" +
+                    "mantic and syntactic similarities] between these texts.\r\n\t2.[Annotations] provid" +
+                    "e information in addition to the metadata and text of the COVID-19 literature. \r" +
+                    "\n\tOne may wish to [identify and annotate] mentions of biomedical or clinical [en" +
+                    "tities], [relations], or [attributes] \r\n\tof interest in the paper text.\r\n\t3.[Kno" +
+                    "wledge graphs] can also support [automated reasoning and inference] and \r\n\tthe p" +
+                    "otential [discovery of novel relationships].\r\n\t4.[Contextual language models] ar" +
+                    "e ubiquitous in modern text mining systems.\r\n\r\n\t1.[Exploration]: provide a prede" +
+                    "fined set of [topics] or [keyphrases] with which to filter the documents. . \r\n\t[" +
+                    "Topics] or [keyphrases] can be extracted from documents using [supervised] or [u" +
+                    "nsupervised] biomedical entity extraction.\r\n\t2.[QA systems] accept queries in th" +
+                    "e form of questions and provide extracted answer spans from documents, \r\n\twith t" +
+                    "he ability to [generate summaries across answers], or [ask follow-up questions]." +
+                    "\r\n\t3.[KB construction] describes systems that create KBs by extracting [entities" +
+                    " and relations] from text. \r\n\tKB system links papers to their corresponding [cli" +
+                    "nical trials and trial results].\r\n\t4.[Visualizations] are usually coupled with [" +
+                    "extracted KBs] or [citation networks].", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -73,14 +123,14 @@ namespace KM01.Specs.Features
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Add two numbers", new string[] {
-                "mytag"}, SourceLine=7)]
+                "mytag"}, SourceLine=37)]
         public virtual void AddTwoNumbers()
         {
             string[] tagsOfScenario = new string[] {
                     "mytag"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Add two numbers", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 8
+#line 38
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -100,16 +150,16 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 9
+#line 39
  testRunner.Given("the first number is 50", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 10
+#line 40
  testRunner.And("the second number is 70", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 11
+#line 41
  testRunner.When("the two numbers are added", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 12
+#line 42
  testRunner.Then("the result should be 120", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }

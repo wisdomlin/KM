@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31019.35
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KM01", "KM01\KM01.csproj", "{B7C72756-B0E9-49D7-8B2D-24E98091355D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReusableEntities", "KM01\ReusableEntities.csproj", "{B7C72756-B0E9-49D7-8B2D-24E98091355D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KM01.Specs", "KM01.Specs\KM01.Specs.csproj", "{DB402799-C72B-4AE4-8B7D-452D7C82AEE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReusableEntities.specs", "KM01.Specs\ReusableEntities.specs.csproj", "{DB402799-C72B-4AE4-8B7D-452D7C82AEE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrillingRisk", "DrillingRisk\DrillingRisk.csproj", "{1602E538-3498-4C37-8CA6-D5E9D8785479}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{DCB1BE20-F62F-4045-A83C-889A56BAAC34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "WpfApp1\WpfApp1.csproj", "{1B601C57-B86D-459A-9A2C-04685C8C3335}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{DB402799-C72B-4AE4-8B7D-452D7C82AEE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB402799-C72B-4AE4-8B7D-452D7C82AEE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB402799-C72B-4AE4-8B7D-452D7C82AEE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1602E538-3498-4C37-8CA6-D5E9D8785479}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1602E538-3498-4C37-8CA6-D5E9D8785479}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1602E538-3498-4C37-8CA6-D5E9D8785479}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1602E538-3498-4C37-8CA6-D5E9D8785479}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCB1BE20-F62F-4045-A83C-889A56BAAC34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCB1BE20-F62F-4045-A83C-889A56BAAC34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCB1BE20-F62F-4045-A83C-889A56BAAC34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCB1BE20-F62F-4045-A83C-889A56BAAC34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B601C57-B86D-459A-9A2C-04685C8C3335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B601C57-B86D-459A-9A2C-04685C8C3335}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B601C57-B86D-459A-9A2C-04685C8C3335}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B601C57-B86D-459A-9A2C-04685C8C3335}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

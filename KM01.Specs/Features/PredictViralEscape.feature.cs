@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace KM01.Specs.Features
+namespace ReusableEntities.specs.Features
 {
     using TechTalk.SpecFlow;
     using System;
@@ -19,7 +19,7 @@ namespace KM01.Specs.Features
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "3.8.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [TechTalk.SpecRun.FeatureAttribute("Predict viral escape", Description="[Viral mutations] that evade [neutralizing antibodies], an occurrence known as [v" +
+    [TechTalk.SpecRun.FeatureAttribute("predict viral escape", Description="[Viral mutations] that evade [neutralizing antibodies], an occurrence known as [v" +
         "iral escape], \r\ncan occur and may impede [the development of vaccines]. \r\nTo pre" +
         "dict which mutations may lead to [viral escape], \r\nHie et al. used a machine lea" +
         "rning technique for natural language processing with two components: \r\ngrammar (" +
@@ -57,7 +57,7 @@ namespace KM01.Specs.Features
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "Predict viral escape", "[Viral mutations] that evade [neutralizing antibodies], an occurrence known as [v" +
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "predict viral escape", "[Viral mutations] that evade [neutralizing antibodies], an occurrence known as [v" +
                     "iral escape], \r\ncan occur and may impede [the development of vaccines]. \r\nTo pre" +
                     "dict which mutations may lead to [viral escape], \r\nHie et al. used a machine lea" +
                     "rning technique for natural language processing with two components: \r\ngrammar (" +
@@ -144,39 +144,39 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-                TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table3 = new TechTalk.SpecFlow.Table(new string[] {
                             "Syntax",
                             "Semantics"});
-                table1.AddRow(new string[] {
+                table3.AddRow(new string[] {
                             "correct",
                             "effectively different"});
-                table1.AddRow(new string[] {
+                table3.AddRow(new string[] {
                             "correct",
                             "effectively same"});
-                table1.AddRow(new string[] {
+                table3.AddRow(new string[] {
                             "correct",
                             "ineffective"});
-                table1.AddRow(new string[] {
+                table3.AddRow(new string[] {
                             "incorrect",
                             "ineffective"});
 #line 33
- testRunner.Given("viral evolution generates the following structral patterns of sequence data:", ((string)(null)), table1, "Given ");
+ testRunner.Given("viral evolution generates the following structral patterns of sequence data:", ((string)(null)), table3, "Given ");
 #line hidden
 #line 39
  testRunner.When("the structral patterns of sequence data are predicted", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-                TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table4 = new TechTalk.SpecFlow.Table(new string[] {
                             "Prediction Result"});
-                table2.AddRow(new string[] {
+                table4.AddRow(new string[] {
                             "viral escape"});
-                table2.AddRow(new string[] {
+                table4.AddRow(new string[] {
                             "no viral escape"});
-                table2.AddRow(new string[] {
+                table4.AddRow(new string[] {
                             "no viral escape"});
-                table2.AddRow(new string[] {
+                table4.AddRow(new string[] {
                             "no viral escape"});
 #line 40
- testRunner.Then("the prediction result should be as follows:", ((string)(null)), table2, "Then ");
+ testRunner.Then("the prediction result should be as follows:", ((string)(null)), table4, "Then ");
 #line hidden
             }
             this.ScenarioCleanup();

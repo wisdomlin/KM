@@ -1,4 +1,4 @@
-﻿Feature: Predict viral escape
+﻿Feature: predict viral escape
 [Viral mutations] that evade [neutralizing antibodies], an occurrence known as [viral escape], 
 can occur and may impede [the development of vaccines]. 
 To predict which mutations may lead to [viral escape], 
